@@ -28,6 +28,7 @@
                 <?php
                     foreach ($orcamento as &$item){
                         $total = total($item['preco'], $item['quantidade']);
+        
                         echo "<tr>
                             <td></td>
                             <td>{$item['produto']}</td>
